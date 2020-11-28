@@ -1,0 +1,91 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #e5ddc8;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1.5em;
+  color: #c9643b;
+  font-size: 62px;
+}
+
+h2 {
+  float: right;
+  padding: .4em;
+  margin-top: 0;
+  margin-right: 0;
+  border: 1px solid black;
+}
+
+.subH1{
+  background-color: #deb799;
+}
+
+.subH2{
+  background-color: #dec5d2;
+}
+
+.subH3{
+  background-color: #badade;
+}
+
+section{
+  display: inline-block;
+  background-color: #afddc8;
+  color: #c9643b;
+  margin: .8em;
+  border: 1px solid black;
+}
+
+section p {
+  clear: both;
+  padding: 1.25em;
+  margin-top: 0.5em;
+  background-color: #afddc8;
+  font-family: "Times New Roman", Times, serif;
+  color: #c9643b;
+}
+
+/********** Media queries **********/
+
+/********** Large devices only **********/
+
+@media (min-width: 992px) {
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section {
+    width: 30%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .section1,.section2{
+    width: 45%;
+    float: left;
+  }
+
+  .section2 {
+    margin-left: 4%;
+  }
+
+  .section3 {
+    clear: both;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  section {
+    width: 90%;
+  }
+}
