@@ -12,14 +12,16 @@ h1 {
   align: center;
   text-align: center;
   color: #c9643b;
+  font-size: 62px;
 }
 
 p {
   background-color: #afddc8;
-  width: 25%;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  width: 120px;
   height: 36px;
-  margin-right: 15px;
-  margin-left: 15px;
   font-size: 32px;
   font-family: "Times New Roman", Times, serif;
   color: #c9643b;
@@ -37,24 +39,34 @@ section{
 
 .center {
   width: 90%;
-  margin: 15px;
+  /*padding: 5px;*/
+  padding-top: 34px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-right {
   position: absolute;
-  top: -21px;
-  right: 15px;
+  top: -33px;
+  right: -1px;
 }
 
 .bottom-left {
   position: absolute;
-  bottom: 12px;
-  left: 0px;
+  bottom: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
   width: 90%;
+  padding-left: 5px;
 }
 
 .container {
   position: relative;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  margin: 10px;
 }
 
 /* Simple Responsive Framework. */
